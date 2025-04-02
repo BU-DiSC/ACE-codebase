@@ -26,17 +26,17 @@ number of operations: x
 
 percentage of read: e
 
-ACE variant: a
+ACE variant: a (a=1 is the baseline, a=5 is the final ACE counterpart)
 
-skewness parameter: s
+skewness parameter: s (s% of the accesses will focus on d% of the data)
 
-skewness parameter: d
+skewness parameter: d (s% of the accesses will focus on d% of the data)
 
 read cost: r
 
-write cost: w
+write cost: w (w=a*r)
 
-concurrency: k
+concurrency: k (only makes sense for a>1, not the baseline)
 
 verbosity: v
 
